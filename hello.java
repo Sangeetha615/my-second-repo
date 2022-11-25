@@ -1,12 +1,10 @@
 public class hello{
     public static void main(String args[]){
-        String firstName = "Sangeetha";
-        String lastName ="";
-        for(int i=firstName.length()-1; i>=0 ;i--)
-{
+        stringReversal strRe = new stringReversal();
+        String solution = strRe.Reverse("ahteegnaS");
+        System.out.println("Print the reversed string: " +solution);
+        System.out.println("Enter the integer "+strRe.numReverse(solution.length()));
 
-    lastName=lastName+firstName.charAt(i);
-}
-System.out.println("this is the last name for the user: " + lastName);
+        
     }
 }
