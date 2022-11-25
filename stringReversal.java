@@ -1,4 +1,4 @@
-public class stringReversal {
+class stringReversal implements Interfaceconcepts{
     public String Reverse(String firstName){
         System.out.println("this is the last name for the user: " + firstName);
     String lastName ="";
@@ -8,6 +8,10 @@ public class stringReversal {
         }   
   
         return lastName;
+}
+
+public void runn(){
+    System.out.println("Calling interface");
 }
 public int numReverse(int num){
     int digit=0;
