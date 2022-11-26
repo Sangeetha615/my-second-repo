@@ -17,4 +17,12 @@ public int numReverse(int num){
     }
     return digit;
 }
+public int numReverse2(int num){
+    int digit=0;
+    for(int i=0;i<=num;i++)
+    {
+         digit = digit + i;
+    }
+    return digit;
+}
 }
